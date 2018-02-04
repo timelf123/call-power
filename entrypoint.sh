@@ -1,5 +1,6 @@
 #!/bin/bash
 #set -e
+sleep 1m
 
 if [ ! -e "/opt/dev.db" ]; then
 	python manager.py migrate up

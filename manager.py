@@ -206,4 +206,5 @@ def createadminuser(username=None, password=None, email=None):
 
 
 if __name__ == "__main__":
+    logging.info("Begin")
     manager.run()

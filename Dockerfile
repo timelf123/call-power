@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update && apt-get -y install python-pip python-dev npm git uwsgi libpq-dev curl unzip
+RUN apt-get update && apt-get -y install python-pip python-dev npm git uwsgi libpq-dev curl unzip python-mysqldb
 
 RUN  mkdir /ngrok && \
      cd /ngrok && \
