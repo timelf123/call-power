@@ -49,3 +49,7 @@ unittest2==0.5.1
 validators==0.7
 webassets==0.12.1
 wsgiref==0.1.2
+rq-scheduler
+PyMySQL
+raven
+raven[flask]
